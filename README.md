@@ -13,7 +13,7 @@ The task is formulated as a multi-class text classification problem with four ca
 
 The project compares a traditional machine learning baseline model with pre-trained and fine-tuned RoBERTa models to evaluate the effectiveness of transformer-based approaches for customer support ticket classification.
 
----
+
 
 ## Objectives
 
@@ -25,7 +25,7 @@ The objectives of this project are:
 - Evaluate model performance using accuracy, precision, recall, and F1-score.
 - Analyse the limitations affecting model performance.
 
----
+
 
 ## Dataset
 
@@ -48,7 +48,7 @@ Classes:
 | 2 | High |
 | 3 | Critical |
 
----
+
 
 ## Methodology
 
@@ -62,7 +62,6 @@ The project pipeline consists of the following stages:
 6. Transformer fine-tuning
 7. Performance evaluation
 
----
 
 ## Models Implemented
 
@@ -88,7 +87,6 @@ Configuration:
 - Learning rate: 5e-5
 - Task: Four-class sequence classification
 
----
 
 ## Evaluation Metrics
 
@@ -99,7 +97,6 @@ The models were evaluated using:
 - Recall
 - F1-score
 
----
 
 ## Results Summary
 
@@ -111,6 +108,6 @@ The models were evaluated using:
 
 The results indicate that fine-tuning RoBERTa provided limited improvement compared with the baseline. Further analysis suggested that dataset characteristics, including weak relationships between ticket text and priority labels, influenced performance.
 
----
+
 
 ## Repository Contents
